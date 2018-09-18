@@ -1,17 +1,17 @@
 Pod::Spec.new do |s|
   s.name             = "BarcodeScanner"
   s.summary          = "Simple and beautiful barcode scanner."
-  s.version          = "4.1.3"
-  s.homepage         = "https://github.com/hyperoslo/BarcodeScanner"
+  s.version          = "5.0.0"
+  s.homepage         = "https://github.com/jyunderwood/BarcodeScanner"
   s.license          = 'MIT'
   s.author           = { "Hyper Interaktiv AS" => "ios@hyper.no" }
   s.source           = {
-    :git => "https://github.com/hyperoslo/BarcodeScanner.git",
+    :git => "https://github.com/jyunderwood/BarcodeScanner.git",
     :tag => s.version.to_s
   }
   s.social_media_url = 'https://twitter.com/hyperoslo'
 
-  s.platform = :ios, '9.0'
+  s.platform = :ios, '11.4'
   s.requires_arc = true
 
   s.source_files = 'Sources/**/*'
@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'UIKit', 'AVFoundation'
 
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 end
